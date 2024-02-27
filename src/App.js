@@ -4,6 +4,7 @@ import { useState } from "react";
 import About from "./components/About";
 import Nav from "./components/Nav";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
   const [categories] = useState([
@@ -33,6 +34,7 @@ function App() {
         <Gallery currentCategory={currentCategory}/>
         <About />
       </main>
+      <Footer />
     </div>
   );
 }
